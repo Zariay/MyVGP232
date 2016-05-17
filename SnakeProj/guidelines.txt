@@ -1,0 +1,9 @@
+This assignment is about exercising your new found skills with NAnt. This is our first use of a real build system and to demonstrate that it can be a complete replacement of Visual Studio I would like you to use NAnt to build a C# project. Using the provided ConsoleSnake project as reference, create a NAnt .build file that is capable of compiling the ConsoleSnake game.
+
+For hand in please place your .build script in the VGP232 Assignment folder by 6:00 on Monday.
+
+Some quick notes about the project:
+-It is built using the .net 2.0 framework and is a console app. This means you will need to set the NAnt selected framework as "net-2.0".
+-There are no embedded resources, no .resx's to worry about
+-The list of references can be obtained from the .csproj
+-The type of app is a console app, so use target="exe" and not "winexe"
